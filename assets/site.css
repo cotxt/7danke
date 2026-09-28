@@ -1,0 +1,83 @@
+/*
+Copyright (c) 2021 Kil Hyung-jin, with Reserved Font Name Pretendard.
+https://github.com/orioncactus/pretendard
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+http://scripts.sil.org/OFL
+*/
+
+
+
+
+    
+    
+    .danke { font-family: 'Pretendard Variable', Pretendard, sans-serif; display: inline-block; }
+    html, body { margin: 0; padding: 0; background: #0C0C0C; }
+    body { font-family: 'Pretendard Variable', Pretendard, -apple-system, system-ui, sans-serif; -webkit-font-smoothing: antialiased; color: #fff; }
+    * { box-sizing: border-box; text-wrap: pretty; }
+    a { color: #F0F07E; text-decoration: none; }
+    a:hover { color: #DCC2FA; }
+    @keyframes dankeRise { from { opacity: 0; transform: translateY(14px) } to { opacity: 1; transform: none } }
+  
+/* Deployment-only additions: preserve desktop design; stack existing blocks on small screens. */
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{display:block;min-height:100vh}
+button,input{font:inherit}button{border:0;margin:0;padding:0;text-align:inherit;cursor:pointer}
+button.action-button{line-height:normal}
+:focus-visible{outline:3px solid #fff;outline-offset:5px}[hidden]{display:none!important}
+.spice-card{outline-offset:7px}.danke{white-space:nowrap}
+.danke-logo{display:inline-block}.spice-card:hover{filter:brightness(1.025)}
+.site-nav a{transition:color .15s}.site-nav a:hover{color:#F0F07E!important}
+#service-notice{background:#191919;color:#fff;border:1px solid #393939;border-radius:24px;width:min(470px,calc(100% - 32px));padding:28px;max-height:calc(100dvh - 40px);overflow:auto;font-family:inherit}
+#service-notice::backdrop{background:#000a;backdrop-filter:blur(5px)}
+#service-notice h2{font-size:24px;line-height:1.4;margin:12px 0;color:#F0F07E}
+#service-notice p{font-size:15px;line-height:1.7;color:#aaa;margin:12px 0 24px}
+.notice-close{display:block;margin-left:auto;background:transparent;color:#fff;min-width:36px;min-height:36px;font-size:22px;text-align:center}
+.notice-done{background:#F0F07E;color:#191919;display:block;width:100%;border-radius:25px;min-height:50px;text-align:center;font-weight:800;font-size:15px}
+@media(max-width:960px){
+ .nav-inner{gap:18px!important}.hero-grid{gap:30px!important}.teacher-grid{gap:25px!important}
+ .step-grid{grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:12px!important}
+ .three-grid{gap:13px!important}.three-grid>div{padding:23px!important}
+ .categories-grid,.faq-grid{gap:30px!important}
+}
+@media(max-width:700px){
+ html{scroll-padding-top:165px}
+ .nav-inner{padding:14px 20px!important;gap:12px!important;justify-content:space-between}
+ .nav-inner>div:nth-child(2){display:none}
+ .nav-inner>div:nth-child(3){order:3;width:100%;justify-content:space-between;gap:10px!important}
+ .nav-inner>div:nth-child(3)>a{font-size:13px!important}
+ .nav-inner>div:last-child{gap:7px!important}.nav-inner>div:first-child{gap:7px!important}
+ .nav-inner>div:first-child>span:last-child{display:none}
+ .nav-inner .action-button{font-size:12px!important;height:38px!important;padding:0 13px!important}
+ .hero-grid{grid-template-columns:1fr!important;padding:40px 20px 0!important;gap:38px!important}
+ .hero-copy{gap:23px!important}.hero-copy h1{font-size:clamp(43px,9.9vw,65px)!important;line-height:1.08!important}
+ .hero-copy>p{font-size:17px!important}.hero-copy>div:nth-child(4){gap:10px!important}
+ .hero-copy>div:nth-child(4)>.action-button{font-size:14px!important;height:52px!important;padding:0 17px!important}
+ .hero-copy>div:nth-child(5){gap:8px!important}.hero-copy>div:nth-child(5)>.action-button{font-size:11px!important;padding:0 12px!important}
+ .hero-copy>div:nth-child(5)>span:last-child{font-size:11px!important}
+ .hero-visual{width:100%;max-width:360px;margin:auto}.hero-visual>div:last-child{max-width:100%!important}
+ .section-wrap{padding-left:20px!important;padding-right:20px!important}
+ .proof{margin-top:50px!important}.proof-grid{grid-template-columns:1fr 1fr!important;gap:24px 20px!important}
+ .section-wrap:not(.proof):not(.site-footer){padding-top:65px!important;margin-top:0!important}
+ .step-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:10px!important}
+ .step-grid>div{min-height:160px!important}.step-grid>div:last-child{grid-column:1/-1;min-height:150px!important}
+ .three-grid,.categories-grid,.teacher-grid,.faq-grid{grid-template-columns:1fr!important;gap:18px!important}
+ .three-grid>.spice-card{min-height:245px!important;padding:26px!important}
+ .categories-grid{gap:26px!important}.categories-grid>div:last-child{gap:10px!important}
+ .categories-grid>div:last-child>div{padding:19px!important;min-height:167px!important}
+ .categories-grid>div:last-child>div span{font-size:11px!important}
+ .teacher-grid{border-radius:28px!important;padding:26px 22px!important;gap:30px!important}
+ .teacher-grid>div:last-child>div{padding:20px!important}.teacher-grid>div:last-child>div:last-child{gap:8px!important}
+ .teacher-grid>div:last-child>div:last-child>span:nth-child(2){font-size:12px!important}
+ .teacher-grid>div:last-child>div:last-child>.action-button{font-size:11px!important;padding:0 10px!important}
+ #price .three-grid{gap:27px!important}#price>div:last-child{gap:10px!important}
+ .faq-grid{gap:22px!important}.final-cta{padding:38px 24px!important;border-radius:28px!important;gap:22px!important}
+ .final-cta>.danke{font-size:80px!important}.final-cta>p{font-size:15px!important}
+ .final-cta>div:last-child{width:100%;gap:10px!important}.final-cta>div:last-child>.action-button{width:100%;height:52px!important;font-size:14px!important;justify-content:center}
+ .site-footer{padding-top:50px!important;padding-bottom:35px!important}.site-footer>div:first-child>div:last-child{gap:30px!important}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+/* The exported design used transparent spans for outline actions. */
+.action-button{background:transparent}
+@media(max-width:700px){.hero-grid{grid-template-columns:minmax(0,1fr)!important}.hero-copy,.hero-visual{min-width:0}}
